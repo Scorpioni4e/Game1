@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Modules">
+      <UniqueIdentifier>{30836d8f-1ac4-4e44-9dec-01c254e45874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AppDelegate">
+      <UniqueIdentifier>{defa6a2e-7fb2-4158-9349-ef4384bdf11d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scenes">
+      <UniqueIdentifier>{10f69233-3660-4a1c-b5e2-aee4f8797b27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scenes\MenuScene">
+      <UniqueIdentifier>{ecdf63c3-49c0-496d-92ea-4cef81b11753}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scenes\TitleScene">
+      <UniqueIdentifier>{e3112695-c74f-4ade-b31f-1bdabd1aa7d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Modules\Input">
+      <UniqueIdentifier>{c09148a0-99d2-4d8d-bdbf-375d7d636eee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Modules\Physics">
+      <UniqueIdentifier>{c2e2130b-3343-491e-9d4d-ab33e0f27105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Modules\Player">
+      <UniqueIdentifier>{25594433-0fcb-4d17-bb0e-8c86beae9c1e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src\AppDelegate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MenuScene.cpp">
+      <Filter>src\Scenes\MenuScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TitleScene.cpp">
+      <Filter>src\Scenes\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Modules\Physics.cpp">
+      <Filter>src\Modules\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Modules\Input.cpp">
+      <Filter>src\Modules\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Modules\Player.cpp">
+      <Filter>src\Modules\Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src\AppDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MenuScene.h">
+      <Filter>src\Scenes\MenuScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TitleScene.h">
+      <Filter>src\Scenes\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Modules\Physics.h">
+      <Filter>src\Modules\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Modules\Input.h">
+      <Filter>src\Modules\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Modules\Player.h">
+      <Filter>src\Modules\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

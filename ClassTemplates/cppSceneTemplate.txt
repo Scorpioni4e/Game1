@@ -1,0 +1,34 @@
+#include "<NAME>.h"
+#include "SimpleAudioEngine.h"
+
+USING_NS_CC;
+
+/****************************************************************************/
+
+Scene* <NAME>::createScene()
+{
+	return <NAME>::create();
+}
+
+/****************************************************************************/
+
+bool <NAME>::init()
+{
+	//////////////////////////////
+	// Initialize
+
+	if (!Scene::init())
+	{
+		return false;
+	}
+
+	auto visibleSize = Director::getInstance()->getVisibleSize();
+	Vec2 origin = Director::getInstance()->getVisibleOrigin();
+
+	/////////////////////////////
+	// Body
+
+	// ...
+
+	return true;
+}
