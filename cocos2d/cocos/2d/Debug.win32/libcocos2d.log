@@ -194,8 +194,8 @@
   unzip.cpp
   xxhash.c
   CCAABB.cpp
-  CCAnimate3D.cpp
 ..\..\external\xxhash\xxhash.c(312): warning C4804: '/': unsafe use of type 'bool' in operation
+  CCAnimate3D.cpp
   CCAnimation3D.cpp
   CCAttachNode.cpp
   CCBillBoard.cpp
@@ -312,9 +312,9 @@
   CCActionTimeline.cpp
   CCActionTimelineCache.cpp
   CCActionTimelineNode.cpp
-  CCBoneNode.cpp
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.cpp)
+  CCBoneNode.cpp
   CCFrame.cpp
   CCSkeletonNode.cpp
   CCSkinNode.cpp
@@ -327,9 +327,9 @@ C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-sup
   CCActionObject.cpp
   CCArmature.cpp
   CCArmatureAnimation.cpp
+  CCArmatureDataManager.cpp
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\ActionTimeline\CSLoader.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\ActionTimeline\CSLoader.cpp)
-  CCArmatureDataManager.cpp
   CCArmatureDefine.cpp
   CCBatchNode.cpp
   CCBone.cpp
@@ -358,9 +358,9 @@ C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-sup
   DictionaryHelper.cpp
   FlatBuffersSerialize.cpp
   LocalizationManager.cpp
-  TriggerBase.cpp
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\FlatBuffersSerialize.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\FlatBuffersSerialize.cpp)
+  TriggerBase.cpp
   TriggerMng.cpp
   TriggerObj.cpp
   WidgetCallBackHandlerProtocol.cpp
@@ -374,29 +374,29 @@ C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-sup
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
   ComAudioReader.cpp
-  GameMapReader.cpp
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp)
+  GameMapReader.cpp
+  GameNode3DReader.cpp
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
-  GameNode3DReader.cpp
   ImageViewReader.cpp
-  LayoutReader.cpp
-  Light3DReader.cpp
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
-C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
-C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
+  LayoutReader.cpp
+  Light3DReader.cpp
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp)
+C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
+C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
   ListViewReader.cpp
   LoadingBarReader.cpp
   Node3DReader.cpp
-  NodeReaderDefine.cpp
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
+  NodeReaderDefine.cpp
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
@@ -405,15 +405,15 @@ C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-sup
   NodeReader.cpp
   PageViewReader.cpp
   Particle3DReader.cpp
+  ParticleReader.cpp
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
-  ParticleReader.cpp
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
-C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
-C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp)
+C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
+C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
   ProjectNodeReader.cpp
   ScrollViewReader.cpp
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
@@ -422,11 +422,11 @@ C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-sup
   BoneNodeReader.cpp
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
+C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp)
+C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
   SkeletonNodeReader.cpp
-C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp)
-C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp)
   SliderReader.cpp
@@ -435,10 +435,10 @@ C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-sup
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
   TabControlReader.cpp
-C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
-C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
+C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
+C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp)
   TextAtlasReader.cpp
@@ -453,15 +453,15 @@ C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-sup
   TextReader.cpp
   UserCameraReader.cpp
   WidgetReader.cpp
-C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
   CCAffineTransform.cpp
+C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
-  CCGeometry.cpp
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp)
-  CCVertex.cpp
+  CCGeometry.cpp
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
 C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
+  CCVertex.cpp
   Mat4.cpp
   MathUtil.cpp
   Quaternion.cpp
@@ -513,7 +513,6 @@ C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\cocos2d\cocos\editor-sup
   CCGLProgramState.cpp
 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\Shlobj.h(1151): warning C4091: 'typedef ': ignored on left of 'tagGPFIDL_FLAGS' when no variable is declared (compiling source file ..\platform\win32\CCFileUtils-win32.cpp)
   CCGLProgramStateCache.cpp
-  CCGroupCommand.cpp
 ..\renderer\CCGLProgramState.cpp(914): warning C4996: 'cocos2d::UniformValue::setTexture': was declared deprecated
   ..\renderer\CCGLProgramState.cpp(174): note: see declaration of 'cocos2d::UniformValue::setTexture'
 ..\renderer\CCGLProgramState.cpp(918): warning C4996: 'cocos2d::UniformValue::setTexture': was declared deprecated
@@ -522,6 +521,7 @@ C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\Shlobj.h(1151): warn
   ..\renderer\CCGLProgramState.cpp(174): note: see declaration of 'cocos2d::UniformValue::setTexture'
 ..\renderer\CCGLProgramState.cpp(939): warning C4996: 'cocos2d::UniformValue::setTexture': was declared deprecated
   ..\renderer\CCGLProgramState.cpp(174): note: see declaration of 'cocos2d::UniformValue::setTexture'
+  CCGroupCommand.cpp
   CCMaterial.cpp
   CCMeshCommand.cpp
   CCPass.cpp

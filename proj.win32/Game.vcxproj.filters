@@ -34,6 +34,33 @@
     <Filter Include="src\Modules\Player">
       <UniqueIdentifier>{25594433-0fcb-4d17-bb0e-8c86beae9c1e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Modules\Layers">
+      <UniqueIdentifier>{b69344aa-b703-4f0c-bc3f-7755a37b2f1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Modules\Layers\BackgroundLayer">
+      <UniqueIdentifier>{c0e0258a-99c9-49e5-bc30-c0097f79bc9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Modules\Layers\HUDLayer">
+      <UniqueIdentifier>{65223234-b81d-4575-92ea-060e8d4fd355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Modules\Layers\WorldLayer">
+      <UniqueIdentifier>{cb2fbf5c-1d0c-4089-8f67-7c470b1c0553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Modules\Enemy">
+      <UniqueIdentifier>{beb316d7-9c6b-41ae-97cc-c22c95ca15f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Modules\CollectableItem">
+      <UniqueIdentifier>{86eb1a77-ecac-44db-8a57-d167fb035a59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Modules\Sound">
+      <UniqueIdentifier>{6aa5bb29-7d96-421e-b7c7-edc3cc0fa8ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Modules\Controller">
+      <UniqueIdentifier>{1763cb80-8fb6-4f75-a057-6eb992de14c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Modules\ResourceManager">
+      <UniqueIdentifier>{3f7a2212-253b-42a9-b2a3-8b1d4315c37b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -57,6 +84,30 @@
     <ClCompile Include="..\Classes\Modules\Player.cpp">
       <Filter>src\Modules\Player</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\Modules\BackgroundLayer.cpp">
+      <Filter>src\Modules\Layers\BackgroundLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Modules\HUDLayer.cpp">
+      <Filter>src\Modules\Layers\HUDLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Modules\WorldLayer.cpp">
+      <Filter>src\Modules\Layers\WorldLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Modules\Enemy.cpp">
+      <Filter>src\Modules\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Modules\CollectableItem.cpp">
+      <Filter>src\Modules\CollectableItem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Modules\Controller.cpp">
+      <Filter>src\Modules\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Modules\Sound.cpp">
+      <Filter>src\Modules\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Modules\ResourceManager.cpp">
+      <Filter>src\Modules\ResourceManager</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -79,6 +130,30 @@
     </ClInclude>
     <ClInclude Include="..\Classes\Modules\Player.h">
       <Filter>src\Modules\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Modules\BackgroundLayer.h">
+      <Filter>src\Modules\Layers\BackgroundLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Modules\HUDLayer.h">
+      <Filter>src\Modules\Layers\HUDLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Modules\WorldLayer.h">
+      <Filter>src\Modules\Layers\WorldLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Modules\Enemy.h">
+      <Filter>src\Modules\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Modules\CollectableItem.h">
+      <Filter>src\Modules\CollectableItem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Modules\Controller.h">
+      <Filter>src\Modules\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Modules\Sound.h">
+      <Filter>src\Modules\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Modules\ResourceManager.h">
+      <Filter>src\Modules\ResourceManager</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
