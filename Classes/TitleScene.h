@@ -22,8 +22,8 @@ THE SOFTWARE.
 
 #pragma once
 
-#ifndef __TITLE_SCENE_H__
-#define __TITLE_SCENE_H__
+#ifndef __TITLESCENE_H__
+#define __TITLESCENE_H__
 
 #include "cocos2d.h"
 
@@ -34,11 +34,13 @@ public:
 
     virtual bool init();
     
-	// Some methods here
-    // ...
+	// Schedule update
+	void update(float delta);
+
+	// ...
     
     // implement the "static create()" method manually
     CREATE_FUNC(TitleScene);
 };
 
-#endif // __TITLE_SCENE_H__
+#endif // __TITLESCENE_H__

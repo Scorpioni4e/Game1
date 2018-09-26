@@ -35,9 +35,55 @@ THE SOFTWARE.
 #ifndef __PLAYER_H__
 #define __PLAYER_H__
 
+#include "cocos2d.h"
+
 class Player
 {
+/****************************************************************************/
+private:
+	/////////////////////////////////////////////
+	// Variables
 
+	// Main entity
+	static cocos2d::Sprite* playerSprite;
+
+	// Player's state variables
+	// Values: 0 - staying, 1 - moving++, -1 - moving--
+	static int xMovement;
+	static int yMovement;
+	static int playerSpeed;
+
+	/////////////////////////////////////////////
+	// Methods
+
+	// Move actions
+	static void moveLeft();
+	static void moveRight();
+	static void moveUp();
+	static void moveDown();
+
+	// Real time frames update
+	// Using for changing some data at real time (e.g. moving)
+	static void scheduleUpdate();	
+
+/****************************************************************************/
+public:
+	/////////////////////////////////////////////
+	// Friends
+
+	friend class Input;
+	friend class Core;
+
+	/////////////////////////////////////////////
+	// Public methods
+
+	// Create player sprite on some position
+	static void spawnPlayer(cocos2d::Vec2 pos, cocos2d::Layer* layer);
+
+	/////////////////////////////////////////////
+	// Public get methods
+
+	static cocos2d::Sprite* getSprite();
 };
 
-#endif // __PLAYER_H__
+#endif // __PLAYER_H__ 

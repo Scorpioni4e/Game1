@@ -21,8 +21,12 @@ THE SOFTWARE.
 ****************************************************************************/
 
 /****************************************************************************
-
-Info
+  ____                                      __  __                                   
+ |  _ \ ___  ___  ___  _   _ _ __ ___ ___  |  \/  | __ _ _ __   __ _  __ _  ___ _ __ 
+ | |_) / _ \/ __|/ _ \| | | | '__/ __/ _ \ | |\/| |/ _` | '_ \ / _` |/ _` |/ _ \ '__|
+ |  _ <  __/\__ \ (_) | |_| | | | (_|  __/ | |  | | (_| | | | | (_| | (_| |  __/ |   
+ |_| \_\___||___/\___/ \__,_|_|  \___\___| |_|  |_|\__,_|_| |_|\__,_|\__, |\___|_|   
+                                                                     |___/           
 
 ****************************************************************************/
 
@@ -31,9 +35,24 @@ Info
 #ifndef __RESOURCEMANAGER_H__
 #define __RESOURCEMANAGER_H__
 
+#include "cocos2d.h"
+
 class ResourceManager
 {
+public:
 
+	// What sheet to get enumeration
+	// Contains all type of situations
+	// to resources sheet loading
+	enum Sheet
+	{
+		Player,
+		World
+	};
+
+	// Load to cache. This method
+	// must be invoked from some layer
+	static void loadSheetToFrameCache(Sheet type);
 };
 
 #endif // __RESOURCEMANAGER_H__

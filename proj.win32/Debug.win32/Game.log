@@ -1,15 +1,4 @@
-﻿  AppDelegate.cpp
-  BackgroundLayer.cpp
-  CollectableItem.cpp
-  Controller.cpp
-  Enemy.cpp
-  HUDLayer.cpp
-  Input.cpp
-  ResourceManager.cpp
-  Sound.cpp
-  WorldLayer.cpp
-AppDelegate.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
-     Creating library C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\proj.win32\Debug.win32\Game.lib and object C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\proj.win32\Debug.win32\Game.exp
+﻿  Player.cpp
   Game.vcxproj -> C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\proj.win32\Debug.win32\Game.exe
   Game.vcxproj -> C:\Users\YNT\Documents\Visual Studio 2015\Projects\Game\proj.win32\Debug.win32\Game.pdb (Full PDB)
   0 File(s) copied

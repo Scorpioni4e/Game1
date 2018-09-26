@@ -99,14 +99,14 @@
     <ClCompile Include="..\Classes\Modules\CollectableItem.cpp">
       <Filter>src\Modules\CollectableItem</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Modules\Controller.cpp">
-      <Filter>src\Modules\Controller</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\Modules\Sound.cpp">
       <Filter>src\Modules\Sound</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\Modules\ResourceManager.cpp">
       <Filter>src\Modules\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Modules\Core.cpp">
+      <Filter>src\Modules\Controller</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -146,14 +146,14 @@
     <ClInclude Include="..\Classes\Modules\CollectableItem.h">
       <Filter>src\Modules\CollectableItem</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Modules\Controller.h">
-      <Filter>src\Modules\Controller</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\Modules\Sound.h">
       <Filter>src\Modules\Sound</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Modules\ResourceManager.h">
       <Filter>src\Modules\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Modules\Core.h">
+      <Filter>src\Modules\Controller</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

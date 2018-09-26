@@ -22,5 +22,24 @@ THE SOFTWARE.
 
 #include "ResourceManager.h"
 
+USING_NS_CC;
+
 /****************************************************************************/
 // ...
+
+void ResourceManager::loadSheetToFrameCache(Sheet type)
+{
+	//////////////////////////////
+	// Create sprite cache and add sheet to it.
+	switch (type)
+	{
+	case Sheet::Player:		
+		SpriteFrameCache::getInstance()->addSpriteFramesWithFile
+		(
+			"Resources/playerSheet.plist"
+		);
+		break;
+	default:
+		break;
+	}
+}

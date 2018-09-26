@@ -152,7 +152,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClCompile Include="..\Classes\MenuScene.cpp" />
     <ClCompile Include="..\Classes\Modules\BackgroundLayer.cpp" />
     <ClCompile Include="..\Classes\Modules\CollectableItem.cpp" />
-    <ClCompile Include="..\Classes\Modules\Controller.cpp" />
+    <ClCompile Include="..\Classes\Modules\Core.cpp" />
     <ClCompile Include="..\Classes\Modules\Enemy.cpp" />
     <ClCompile Include="..\Classes\Modules\HUDLayer.cpp" />
     <ClCompile Include="..\Classes\Modules\Input.cpp" />
@@ -169,7 +169,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClInclude Include="..\Classes\MenuScene.h" />
     <ClInclude Include="..\Classes\Modules\BackgroundLayer.h" />
     <ClInclude Include="..\Classes\Modules\CollectableItem.h" />
-    <ClInclude Include="..\Classes\Modules\Controller.h" />
+    <ClInclude Include="..\Classes\Modules\Core.h" />
     <ClInclude Include="..\Classes\Modules\Enemy.h" />
     <ClInclude Include="..\Classes\Modules\HUDLayer.h" />
     <ClInclude Include="..\Classes\Modules\Input.h" />

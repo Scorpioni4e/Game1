@@ -22,5 +22,35 @@ THE SOFTWARE.
 
 #include "WorldLayer.h"
 
+#include "ResourceManager.h"
+#include "Player.h"
+
+USING_NS_CC;
+
 /****************************************************************************/
-// ...
+// Initialize
+
+void WorldLayer::initializeOn(cocos2d::Scene* scene)
+{
+	auto visibleSize = Director::getInstance()->getVisibleSize();
+	Vec2 origin = Director::getInstance()->getVisibleOrigin();
+
+	//////////////////////////////
+	// Init layer
+	auto layer = cocos2d::Layer::create();
+
+	ResourceManager::loadSheetToFrameCache(ResourceManager::Sheet::Player);
+	Player::spawnPlayer
+	(
+		// position
+		Vec2(origin.x + visibleSize.width / 2, origin.y + visibleSize.height / 2),
+		// add to
+		layer
+	);
+
+	// ...
+
+	//////////////////////////////
+	// Add to scene
+	scene->addChild(layer);
+}

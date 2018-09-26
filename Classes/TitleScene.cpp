@@ -23,6 +23,10 @@ THE SOFTWARE.
 #include "TitleScene.h"
 #include "SimpleAudioEngine.h"
 
+#include "Modules/WorldLayer.h"
+#include "Modules/Input.h"
+#include "Modules/Core.h"
+
 USING_NS_CC;
 
 Scene* TitleScene::createScene()
@@ -46,7 +50,16 @@ bool TitleScene::init()
     /////////////////////////////
     // Body
 
-	// ...
+	WorldLayer::initializeOn(this);
+
+
+	Director::getInstance()->getEventDispatcher()->addEventListenerWithSceneGraphPriority(Input::keyboardListener(), Player::getSprite());
+	this->scheduleUpdate();
 
     return true;
+}
+
+void TitleScene::update(float delta)
+{
+	Core::gameScheduleUpdate();
 }

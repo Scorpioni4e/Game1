@@ -9,6 +9,8 @@ Info
 #ifndef __<UPPERNAME>_H__
 #define __<UPPERNAME>_H__
 
+#include "cocos2d.h"
+
 class <NAME>
 {
 

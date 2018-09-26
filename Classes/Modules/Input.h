@@ -35,9 +35,19 @@ THE SOFTWARE.
 #ifndef __INPUT_H__
 #define __INPUT_H__
 
+#include "cocos2d.h"
+#include "Player.h"
+
 class Input
 {
-
+public:
+	// This function contains definition
+	// for input handle.
+	//
+	// Returns keyboard listener, which
+	// can was added to your scene.
+	//
+	static cocos2d::EventListenerKeyboard* keyboardListener();
 };
 
 #endif // __INPUT_H__
